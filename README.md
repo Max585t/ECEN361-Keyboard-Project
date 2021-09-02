@@ -46,7 +46,7 @@ def init_uart(self, pin, timeout=20):
 It is important to note that the GND pin on the USB breakout board be connected directly to TP1 and not any of the Pico's other GND pins. If USB ground is not connected to TP1, USB type C will not work. 
 Also, the even though the diodes are on the rows, they must be defined in KMK as being on columns. This is because the diode orientation used in the circuit is for pulling pins low, but KMK pulls its pins high. 
 
-## Glory Shots
+## Pictures
 ![20210403_134713](https://user-images.githubusercontent.com/59662034/113489881-037c3e00-9484-11eb-957b-8990d6eb3983.jpg)
 ![20210403_134805](https://user-images.githubusercontent.com/59662034/113489884-070fc500-9484-11eb-9b45-03687a35145e.jpg)
 ![20210403_135133](https://user-images.githubusercontent.com/59662034/113489887-08d98880-9484-11eb-9896-abe366d6e344.jpg)
